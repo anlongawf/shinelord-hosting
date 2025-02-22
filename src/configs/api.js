@@ -21,6 +21,8 @@ const api = axios.create({
     })
 });
 
+
+
 export async function testConnection() {
     try {
         const response = await api.get("/servers");
